@@ -25,6 +25,10 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                         </li>
+                        @*asenkron bir şekilde partial view için aşağıdakini yazdık*@
+                        <li class="nav-item">
+                            @await Html.PartialAsync("_UserLogin");
+                        </li>
                     </ul>
                 </div>
             </div>
