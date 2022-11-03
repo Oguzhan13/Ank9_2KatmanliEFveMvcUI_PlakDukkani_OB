@@ -1,7 +1,11 @@
+using Ank9_EF_Entities_OB.Data;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddDbContext<RecordStoreDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("RecordStoreConnectionString")));
 
 var app = builder.Build();
 
