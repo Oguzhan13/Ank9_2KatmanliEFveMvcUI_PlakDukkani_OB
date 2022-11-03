@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ank9_MvcUI_PlakDukkani_OB", "Ank9_MvcUI_PlakDukkani_OB\Ank9_MvcUI_PlakDukkani_OB.csproj", "{D92A1426-FE9F-4B08-ACF3-E81D47C533CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ank9_EF_Entities_OB", "Ank9_EF_Entities_OB\Ank9_EF_Entities_OB.csproj", "{E16D1267-7A1A-4461-910D-2476C5E26831}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D92A1426-FE9F-4B08-ACF3-E81D47C533CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D92A1426-FE9F-4B08-ACF3-E81D47C533CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D92A1426-FE9F-4B08-ACF3-E81D47C533CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D92A1426-FE9F-4B08-ACF3-E81D47C533CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E16D1267-7A1A-4461-910D-2476C5E26831}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E16D1267-7A1A-4461-910D-2476C5E26831}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E16D1267-7A1A-4461-910D-2476C5E26831}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E16D1267-7A1A-4461-910D-2476C5E26831}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BA78528A-06C5-452B-BD0E-B28D9F0F27F9}
+	EndGlobalSection
+EndGlobal
